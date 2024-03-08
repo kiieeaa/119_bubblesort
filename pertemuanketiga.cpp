@@ -53,6 +53,15 @@ void display() {
     cout << "jumblah pass = " << n - 1 << endl;  //correctly shows the total number of elements
     cout << endl;
 }
+int main() {
+
+    input();      // memanggil procedur input()
+    bubbleSortArray(); // mengurutkan data dengan algoritma bubble sort 
+    display(); // memanggil procedur display()
+    system("pause");
+
+    return 0;
+}
 
 
 
