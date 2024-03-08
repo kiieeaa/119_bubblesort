@@ -38,6 +38,22 @@ void bubbleSortArray() {   // procedur untuk mengurutkan array dengan metode bob
         }
         pass = pass + 1;  //step 4
     } while (pass <= n - 1); // step 5
+}
+
+
+void display() {
+    cout << endl;
+    cout << "===========" << endl;
+    cout << "element array yang telah tersusun" << endl;
+    cout << "===========" << endl;
+    for (int j = 0; j < n; j++) {
+        cout << a[j] << n - 1 << endl; // output each array elemen on a new line
+
+    }
+    cout << "jumblah pass = " << n - 1 << endl;  //correctly shows the total number of elements
+    cout << endl;
+}
+
 
 
 
