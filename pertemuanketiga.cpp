@@ -19,6 +19,39 @@ void input() {      //procedur untuk input
     cout << "masukan elemen array" << endl;  // output ke layar
     cout << "=============" << endl;        // output ke layar {}
 
+    for (int i = 0; i < n; i++) {    //looping dengan i dimulai dari 0 hingga n-1
+        cout << "data ke -" << (i + 1) << ": ";  // output ke layar 
+        cin >> a[i];                 // input dari pengguna
+    }
+}
+
+void bubbleSortArray() {   // procedur untuk mengurutkan array dengan metode bobble sort
+    int pass = 1;  // step 1
+    do {
+        for (int j = 0; j <= n - 1 - pass; j++) { //step 2
+            if (a[j + 1]) { // step 3
+                int temp;
+                temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
+            }
+        }
+        pass = pass + 1;  //step 4
+    } while (pass <= n - 1); // step 5
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
