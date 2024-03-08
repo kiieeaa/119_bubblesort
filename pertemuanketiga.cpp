@@ -1,12 +1,10 @@
-// pertemuanketiga.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 
-int a[20];
-int n;
-{
-    std::cout << "Hello World!\n";
-}
+int a[20];           //deklarasi array a dengan ukuran 20
+int n;              //deklarasi variabel n untuk menyimpan banyak elemen pada array
+
+
+    
+
 
